@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Main from "./component/Main"
-import Footer from "./component/Footer"
+import "./component/page.css"
 
 export default function Home() {
   return (
-    <main>
+    <main className="page">
+      <div>
       <Main/>
-      <Footer></Footer>
+      </div>
 
     </main>
   );

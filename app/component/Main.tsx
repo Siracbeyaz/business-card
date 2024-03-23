@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import React from "react";
 import Image from "next/image";
 import MainImage from "../../public/Rectangle 90.png";
@@ -7,6 +8,8 @@ import "./Main.css"
 
 export default function Main() {
     return (
+        <div className="maindiv">
+    
         <main className="Main">
             <Image src={MainImage} alt="MAinlogo" className="MainImage" width={400} height={100} />
             <h1>Laura Smith</h1>
@@ -42,6 +45,8 @@ export default function Main() {
                 </p>
                 </div>
             </div>
+            <Footer/>
         </main>
+        </div>
     );
 }

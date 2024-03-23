@@ -1,3 +1,10 @@
+.maindiv{
+    height: 820px;
+    width: 400px;
+    background-color:#23252C ;
+}
+
+
 .header {
     display: flex;
     align-items: center;
@@ -92,8 +99,8 @@ p {
 main {
     background-color: #1a1b21;
     width: 317px;
-
     border-radius: 10px 10px 10px 10px;
-    margin: auto;
     text-align: left;
+    margin:auto;
+    
 }
