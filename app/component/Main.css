@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23252c;
+}
+
+h2 {
+    margin-top: 38px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+
+
+p {
+    font-size: 10.5px;
+    font-family: "Inter";
+    margin-top: 5px;
+    font-weight: 300;
+    line-height: 14px;
+    word-spacing: 0.5px;
+    color: #bdbcbc;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+h5{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 10.24px;
+}
+
+h6{
+    text-align: center;
+    color:#F3BF99;
+    font-size: 12.8px;
+}
+
+
+
+.orange {
+    color: orange;
+    margin: 3px;
+}
+
+.textfirst {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.textsec {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+h2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+    margin-left:15px;
+}
+
+
+
+p {
+    font-size: 10.5px;
+    font-family: "Inter";
+    margin-top: 5px;
+    font-weight: 300;
+    line-height: 14px;
+    word-spacing: 0.5px;
+    color: #bdbcbc;
+}
+
+
+.mainbutton {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+main {
+    background-color: #1a1b21;
+    width: 317px;
+
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    text-align: left;
+}
